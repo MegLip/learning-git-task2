@@ -12,3 +12,5 @@ produkty = sum(shopping_dict.values(), [])
 print(f"W sumie kupuję {len(produkty)} produktów")
 
 print(f"Mój ulubiony sklep to: {keys}, a najbardziej lubię jeść: {values[0:3]}") #2 commit ulubione
+
+print((str(shopping_dict.items())).upper()) #3 commit shopping_dict upper
