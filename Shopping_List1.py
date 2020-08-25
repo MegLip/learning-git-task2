@@ -1,4 +1,4 @@
-print("Lista codziennych zakupów") #1 commit Zmiana nazwy
+print("Lista codziennych zakupów") #1 commit Change name
 shopping_dict = {
     "piekarnia": ["chleb", "bułki", "pączek"],
     "warzywniak": ["marchew", "seler", "rukola"]
@@ -11,6 +11,8 @@ for keys, values in shopping_dict.items():
 produkty = sum(shopping_dict.values(), [])
 print(f"W sumie kupuję {len(produkty)} produktów")
 
-print(f"Mój ulubiony sklep to: {keys}, a najbardziej lubię jeść: {values[0:3]}") #2 commit ulubione
+print(f"Mój ulubiony sklep to: {keys}, a najbardziej lubię jeść: {values[0:3]}") #2 commit Add ulubione
 
-print((str(shopping_dict.items())).upper()) #3 commit shopping_dict upper
+print((str(shopping_dict.items())).upper()) #3 commit Add upper
+
+print("***Special regards from Meg***") #4 commit Add regards
